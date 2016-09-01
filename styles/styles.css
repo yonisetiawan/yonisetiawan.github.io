@@ -2,6 +2,67 @@
 Leap Day for GitHub Pages
 by Matt Graham
 */
+
+.medsos:hover{
+	background-color: #4CAF50;
+    color: white;
+	size:20%;
+}
+/* translate*/
+.youtube{
+	-ms-transform: translate(5px, 10px);
+    -webkit-transform: translate(5px, 10px);
+    transform: translate(5px, 10px);
+}
+#email:hover{
+	background-color:white;
+}
+/* scale*/
+#email{
+	 -ms-transform:scale(0.5, 1); 
+    -webkit-transform: scale(0.5, 1);
+    transform: scale(0.5, 1);
+}
+/* rotate*/
+.medsos{
+   -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);;
+}
+/* skew*/
+#image1{
+	-ms-transform: skewX(20deg); 
+    -webkit-transform: skewX(20deg); 
+    transform: skewX(20deg);
+	
+	
+}
+
+#data1 {
+   
+    perspective: 200px;
+    perspective-origin: 10% 10%;
+}
+
+#data2 {
+    padding: 1px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: blue;
+    -webkit-transform: rotateX(45deg); /* Chrome, Safari, Opera */
+    transform: rotateX(45deg);
+	
+}
+
+@keyframes resize {
+  0% { padding: 0; }
+  50% { padding: 0 10px; }
+  100% { padding: 0 30px; }
+}
+#image2 {
+  animation: resize 1s alternate infinite ease-in-out;
+}
+
 @font-face {
   font-family: 'Quattrocento Sans';
   src: url("../fonts/quattrocentosans-bold-webfont.eot");
