@@ -1,3 +1,53 @@
+form {
+ margin: 0;
+}
+
+input {
+ display: block;
+ padding-left: 10px;
+ background-color: #F5F5F5;
+ width: 98%;
+ height: 35px;
+ border: 1px solid #ddd;
+ border-radius: 3px;
+ font-family: 'Montserrat' sans-serif;
+ font-weight: 300;
+ margin-bottom: 14px;
+ 
+}
+select{
+ background-color: #F5F5F5;
+ width: 20%;
+ height: 35px;
+ border: 1px solid #ddd;
+ border-radius: 3px;
+ font-family: 'Montserrat' sans-serif;
+ font-weight: 300;
+	
+}
+textarea{
+ display: block;
+ padding-left: 10px;
+ background-color: #F5F5F5;
+ min-width: 252px;
+ width: 98%;
+ height: 100px;
+ border: 1px solid #ddd;
+ border-radius: 3px;
+ font-family: 'Montserrat' sans-serif;
+ font-weight: 300;
+ margin-bottom: 14px;
+}
+
+#sign-in {
+ margin-top:20px;
+ width:100px;
+ background-color: #F86759;
+ color: white;
+ border: none;
+}
+
+
 #data1 {
     perspective: 200px;
     perspective-origin: 10% 10%;
