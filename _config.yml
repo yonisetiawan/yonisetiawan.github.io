@@ -1,0 +1,8 @@
+title: Yonisetiawan.GitHub.io
+description: Create Web Profile
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
